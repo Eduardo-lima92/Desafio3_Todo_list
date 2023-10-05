@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className="header">
 
-           <Link to={"/Organizacao"}><button>Organização</button></Link> 
-            <button id="task">Tarefas</button>
+          <Link to={"/Organizacao"}><button>Organização</button> </Link> 
+          <Link to={"/"}><button>Tarefas</button> </Link>
 
         </div>
     )
