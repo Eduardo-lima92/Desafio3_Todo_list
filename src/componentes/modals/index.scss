@@ -6,6 +6,7 @@
     margin: 4rem;
     height: 40vh;
     background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom right, #ffffff, rgb(132, 132, 247));
     border-radius: 10px;
     margin: auto;
     padding: 20px;
@@ -24,12 +25,15 @@
 
     p{
         color: #000;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-family: Raleway;
+        margin-top: 10px;
+       
     }
 
     h1{
         font-family: Raleway;
+        font-size: 30px;
     }
 
     &__botao{
@@ -55,9 +59,9 @@
         width: 9rem;
         height: 3rem;
         border-radius: 10px;
-        border: 1px solid #000;
-        background-color: #FFF;
-        color: #000;
+        color: #FFFFFF;
+        
+        
         font-size: 1rem;
         font-family: "Raleway";
         font-weight: 600;
